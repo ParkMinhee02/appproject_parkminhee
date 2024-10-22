@@ -1,0 +1,269 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background: rgba(207, 230, 255, 0.668);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 10;
+	.logo {
+		/* width: 36px;
+		height: 36px; */
+		a {
+			text-decoration: none;
+			width: 100%;
+			height: 100%;
+			font-size: 40px;
+			line-height: 36px;
+			color: rgb(0, 0, 0);
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		li {
+			a {
+				padding: 10px;
+				text-decoration: none;
+				color: #444;
+				font-size: 14px;
+			}
+		}
+	}
+}
+.footer {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	.innerFooter {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		display: flex;
+		padding: 30px 0;
+		.f-logo {
+			margin-right: 20px;
+			a {
+				font-size: 50px;
+				color: #aaa;
+				&.Color {
+					color: #fff;
+				}
+			}
+		}
+		.copy {
+			p {
+				font-size: 14px;
+				color: #aaa;
+				&.addColor {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.aboutWrap {
+	max-width: 1000px;
+	width: 100%;
+	margin: 120px auto 0;
+	padding: 0 30px;
+	box-sizing: border-box;
+	.aboutTitle {
+		text-align: center;
+		color: #bbb;
+		margin-bottom: 30px;
+	}
+	.aboutLoad {
+		text-align: center;
+		font-size: 56px;
+	}
+	.aboutUser {
+		.box {
+			text-align: center;
+			.aboutImg {
+				width: 50%;
+			}
+			.overAndaver {
+				width: 900px;
+				box-sizing: border-box;
+				padding: 30px;
+				margin: 20px auto;
+				border-radius: 20px;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+				text-align: left;
+				.overview {
+					margin-bottom: 30px;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: -webkit-box;
+					-webkit-line-clamp: 3;
+					-webkit-box-orient: vertical;
+				}
+				.tagline {
+					margin-bottom: 10px;
+				}
+				.voteAverage {
+					margin-bottom: 10px;
+				}
+				.date {}
+			}
+		}
+	}
+}
+.bold {
+	font-weight: bold;
+	color: #000;
+}
+
+//Users
+.usersWrap {
+	padding: 150px 20px;
+	h1{
+		text-align: center;
+	}
+	.usersCard {
+		width: 100%;
+		max-width: 1000px;
+		margin: 20px auto;
+		padding: 0 30px;
+		box-sizing: border-box;
+		.card {
+			padding: 30px;
+			margin-bottom: 20px;
+			border-radius: 20px 0 20px 0;
+			box-shadow: 0 0 30px rgba(56, 105, 170, 0.2);
+			.cardBady {
+				font-size: 1.2rem;
+				a {
+					text-decoration: none;
+					color: #222;
+				}
+			}
+		}
+	}
+}
+
+//User
+.userWrap {
+	margin: 150px auto;
+	padding: 0 30px 140px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1000px;
+	h1 {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.detail {
+		padding: 50px;
+		box-sizing: border-box;
+		box-shadow: 0 0 30px rgba(56, 105, 170, 0.2);
+		.loading {
+			font-size: 1.6rem;
+		}	
+		.userDetail {
+			p {
+				line-height: 300%;
+				span {
+					color: #666;
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+}
+
+//Events
+.eventsWrap {
+	padding: 150px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	h2 {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+	h3 {
+		margin: 20px 0 0 0;
+	}
+	.eventListWrap{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		.appEvent {
+			width: 32%;
+			a {
+				text-decoration: none;
+				.eventList {
+					.eventImg {
+						img{
+							width: 100%;
+							border-radius: 20px;
+						}
+					}
+					.eventText {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						font-size: 0.8rem;
+						color: #666;
+						margin: 10px 0;
+						.eventTitle {
+							font-size: 1rem;
+							font-weight: bold;
+							color: #e80000;
+						}
+					}
+				}
+			}
+		}
+	}
+	.bannerImg {
+		width: 100%;
+		margin-top: 50px;
+	}
+}
+.bannerWrap {
+	width: 100%;
+	text-align: center;
+	background: #ffebdf;
+	position: relative;
+	height: 196px;
+	img {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+//Event
+.eventWrap {
+	padding: 150px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	.addEvent {
+		.box {
+			img {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
