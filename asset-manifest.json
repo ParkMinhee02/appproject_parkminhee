@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/appproject_parkminhee/static/css/main.a7171f97.css",
-    "main.js": "/appproject_parkminhee/static/js/main.b7b28486.js",
+    "main.js": "/appproject_parkminhee/static/js/main.c5c521af.js",
     "index.html": "/appproject_parkminhee/index.html",
     "main.a7171f97.css.map": "/appproject_parkminhee/static/css/main.a7171f97.css.map",
-    "main.b7b28486.js.map": "/appproject_parkminhee/static/js/main.b7b28486.js.map"
+    "main.c5c521af.js.map": "/appproject_parkminhee/static/js/main.c5c521af.js.map"
   },
   "entrypoints": [
     "static/css/main.a7171f97.css",
-    "static/js/main.b7b28486.js"
+    "static/js/main.c5c521af.js"
   ]
 }
